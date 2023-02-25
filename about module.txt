@@ -1,0 +1,4 @@
+This module is designed to registers a device number and implement some callback functions.
+It connects device (ls /dev) and driver by giving a number for a specific device.\
+The screenshots show the successful launch of the module and the test file, as well as the 
+deactivation of the module and a "exit" message.

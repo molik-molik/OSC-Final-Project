@@ -1,0 +1,14 @@
+The simplest possible module, let's take a closer look at the most important parts of it:
+
+"Include" lists the header files required for Linux kernel development.
+
+You can set different values in MODULE_LICENSE, depending on the license of the module. 
+
+init (loading) and exit (unloading) as static functions that return integers.
+
+At the end of the file, you can call module_init and module_exit and specify the upload and download functions. 
+This allows arbitrary naming of functions.
+
+Makefile is needed to compile this file. Run "make" to compile.
+
+If we run make, it should compile our module successfully. The result will be the hello_kernel.ko file. 

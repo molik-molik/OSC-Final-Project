@@ -1,0 +1,8 @@
+1) Create a directory lkm (linux kernel module) and subdirs for each module
+2) Create module.c and Makefile files and code 
+3) Run "make" command to compile module
+4) In subdir a lot of files will appear and module.ko is our assembled module
+5) Insert it "sudo insmod module.ko"
+6) Check insertion in Kernel Log "dmesg | tail" (should be init message) or in modules list
+7) Remove module "sudo rmmod module" and check exit message in log
+
